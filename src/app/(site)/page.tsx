@@ -5,7 +5,7 @@ import { randomUUID } from "crypto";
 import { twMerge } from "tailwind-merge";
 import Banner from "../../../public/appbanner.png";
 import Cal from "../../../public/cal.png";
-import { Avatar, AvatarImage, AvatarFallback } from "@radix-ui/react-avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { CardTitle, CardDescription } from "@/components/ui/card";
 import { CLIENTS, USERS } from "@/lib/constants";
