@@ -38,7 +38,7 @@ const HomePage: React.FC<HomePageProps> = () => {
           <Button
             variant="secondary"
             className="
-          w-full rounded-[10px] p-6 text-2xl bg-background"
+          w-full rounded-[10px] p-6 text-xl bg-background"
           >
             Get Sync Sphere Free!
           </Button>
