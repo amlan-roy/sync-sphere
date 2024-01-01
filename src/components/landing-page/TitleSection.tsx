@@ -20,6 +20,7 @@ const TitleSection: React.FC<TitleSectionProps> = ({
     "
       >
         <article
+          data-testid="title-section__pill"
           className="
             rounded-full p-[1px] text-sm
             dark:bg-gradient-to-r dark:from-brand-primaryBlue dark:to-brand-primaryPurple
@@ -37,14 +38,15 @@ const TitleSection: React.FC<TitleSectionProps> = ({
         {subheading ? (
           <>
             <h2
+              data-testid="title-section__title"
               className="text-left text-3xl font-semibold
             md:text-centre
-            sm:text-5xl
-        "
+            sm:text-5xl"
             >
               {title}
             </h2>
             <p
+              data-testid="title-section__subheading"
               className="dark:text-washed-purple-700
         sm:max-w-[450px]
         md:text-center"
@@ -54,10 +56,10 @@ const TitleSection: React.FC<TitleSectionProps> = ({
           </>
         ) : (
           <h1
+            data-testid="title-section__title"
             className="text-left text-4xl font-semibold
             md:text-centre
-            sm:text-6xl
-        "
+            sm:text-6xl"
           >
             {title}
           </h1>

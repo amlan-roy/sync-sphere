@@ -1,0 +1,461 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/landing-page/CustomCard renders correct header, content and footer 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="rounded-lg border bg-card text-card-foreground shadow-sm w-[380px]"
+        data-testid="custom-card__card"
+      >
+        <div
+          class="flex flex-col space-y-1.5 p-6"
+          data-testid="custom-card__header"
+        >
+          <div
+            data-testid="card-test-header"
+          >
+            Card Header
+          </div>
+        </div>
+        <div
+          class="p-6 pt-0 grid gap-4"
+          data-testid="custom-card__content"
+        >
+          <div
+            data-testid="card-test-content"
+          >
+            Card Content
+          </div>
+        </div>
+        <div
+          class="flex items-center p-6 pt-0"
+          data-testid="custom-card__footer"
+        >
+          <div
+            data-testid="card-test-footer"
+          >
+            Card Footer
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="rounded-lg border bg-card text-card-foreground shadow-sm w-[380px]"
+      data-testid="custom-card__card"
+    >
+      <div
+        class="flex flex-col space-y-1.5 p-6"
+        data-testid="custom-card__header"
+      >
+        <div
+          data-testid="card-test-header"
+        >
+          Card Header
+        </div>
+      </div>
+      <div
+        class="p-6 pt-0 grid gap-4"
+        data-testid="custom-card__content"
+      >
+        <div
+          data-testid="card-test-content"
+        >
+          Card Content
+        </div>
+      </div>
+      <div
+        class="flex items-center p-6 pt-0"
+        data-testid="custom-card__footer"
+      >
+        <div
+          data-testid="card-test-footer"
+        >
+          Card Footer
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`components/landing-page/CustomCard renders only content when only content is passed 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="rounded-lg border bg-card text-card-foreground shadow-sm w-[380px]"
+        data-testid="custom-card__card"
+      >
+        <div
+          class="flex flex-col space-y-1.5 p-6"
+          data-testid="custom-card__header"
+        />
+        <div
+          class="p-6 pt-0 grid gap-4"
+          data-testid="custom-card__content"
+        >
+          <div
+            data-testid="card-test-content"
+          >
+            Card Content
+          </div>
+        </div>
+        <div
+          class="flex items-center p-6 pt-0"
+          data-testid="custom-card__footer"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="rounded-lg border bg-card text-card-foreground shadow-sm w-[380px]"
+      data-testid="custom-card__card"
+    >
+      <div
+        class="flex flex-col space-y-1.5 p-6"
+        data-testid="custom-card__header"
+      />
+      <div
+        class="p-6 pt-0 grid gap-4"
+        data-testid="custom-card__content"
+      >
+        <div
+          data-testid="card-test-content"
+        >
+          Card Content
+        </div>
+      </div>
+      <div
+        class="flex items-center p-6 pt-0"
+        data-testid="custom-card__footer"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`components/landing-page/CustomCard renders only footer when only footer is passed 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="rounded-lg border bg-card text-card-foreground shadow-sm w-[380px]"
+        data-testid="custom-card__card"
+      >
+        <div
+          class="flex flex-col space-y-1.5 p-6"
+          data-testid="custom-card__header"
+        />
+        <div
+          class="p-6 pt-0 grid gap-4"
+          data-testid="custom-card__content"
+        />
+        <div
+          class="flex items-center p-6 pt-0"
+          data-testid="custom-card__footer"
+        >
+          <div
+            data-testid="card-test-footer"
+          >
+            Card Footer
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="rounded-lg border bg-card text-card-foreground shadow-sm w-[380px]"
+      data-testid="custom-card__card"
+    >
+      <div
+        class="flex flex-col space-y-1.5 p-6"
+        data-testid="custom-card__header"
+      />
+      <div
+        class="p-6 pt-0 grid gap-4"
+        data-testid="custom-card__content"
+      />
+      <div
+        class="flex items-center p-6 pt-0"
+        data-testid="custom-card__footer"
+      >
+        <div
+          data-testid="card-test-footer"
+        >
+          Card Footer
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`components/landing-page/CustomCard renders only header when only header is passed 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="rounded-lg border bg-card text-card-foreground shadow-sm w-[380px]"
+        data-testid="custom-card__card"
+      >
+        <div
+          class="flex flex-col space-y-1.5 p-6"
+          data-testid="custom-card__header"
+        >
+          <div
+            data-testid="card-test-header"
+          >
+            Card Header
+          </div>
+        </div>
+        <div
+          class="p-6 pt-0 grid gap-4"
+          data-testid="custom-card__content"
+        />
+        <div
+          class="flex items-center p-6 pt-0"
+          data-testid="custom-card__footer"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="rounded-lg border bg-card text-card-foreground shadow-sm w-[380px]"
+      data-testid="custom-card__card"
+    >
+      <div
+        class="flex flex-col space-y-1.5 p-6"
+        data-testid="custom-card__header"
+      >
+        <div
+          data-testid="card-test-header"
+        >
+          Card Header
+        </div>
+      </div>
+      <div
+        class="p-6 pt-0 grid gap-4"
+        data-testid="custom-card__content"
+      />
+      <div
+        class="flex items-center p-6 pt-0"
+        data-testid="custom-card__footer"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

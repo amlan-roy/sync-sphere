@@ -2,7 +2,7 @@ import React from "react";
 
 const Loader = () => {
   return (
-    <div role="status">
+    <div data-testid="data-test-loader" role="status">
       <svg
         aria-hidden="true"
         className="inline w-8 h-8 mr-2 text-gray-200 animate-spin dark:text-primary-foreground/30 fill-primary-foreground "
