@@ -17,16 +17,21 @@ const CustomCard: React.FC<CustomCardProps> = ({
   ...props
 }) => {
   return (
-    <Card className={cn("w-[380px]", className)} {...props}>
-      <CardHeader>{cardHeader}</CardHeader>
+    <Card
+      data-testid="custom-card__card"
+      className={cn("w-[380px]", className)}
+      {...props}
+    >
+      <CardHeader data-testid="custom-card__header">{cardHeader}</CardHeader>
       <CardContent
         className="grid
         gap-4
       "
+        data-testid="custom-card__content"
       >
         {cardContent}
       </CardContent>
-      <CardFooter>{cardFooter}</CardFooter>
+      <CardFooter data-testid="custom-card__footer">{cardFooter}</CardFooter>
     </Card>
   );
 };
