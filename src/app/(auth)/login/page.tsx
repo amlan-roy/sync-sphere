@@ -67,7 +67,7 @@ const LoginPage: React.FC<LoginPageProps> = () => {
           justify-left
           items-center"
         >
-          <Image src={Logo} alt="cypress Logo" width={50} height={50} />
+          <Image src={Logo} alt="Sync Sphere Logo" width={50} height={50} />
           <span
             className="font-semibold
           dark:text-white text-3xl first-letter:ml-2"
