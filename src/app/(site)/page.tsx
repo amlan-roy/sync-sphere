@@ -3,7 +3,7 @@ import clsx from "clsx";
 import Image from "next/image";
 import { randomUUID } from "crypto";
 import { twMerge } from "tailwind-merge";
-import Banner from "../../../public/appbanner.png";
+import Banner from "../../../public/appBanner.png";
 import Cal from "../../../public/cal.png";
 import CheckIcon from "../../../public/icons/check.svg";
 import Diamond from "../../../public/icons/diamond.svg";
