@@ -22,10 +22,7 @@ export async function actionSignUpUser({
   password,
 }: z.infer<typeof FormSchema>) {
   const supabase = createRouteHandlerClient({ cookies });
-  const { data } = await supabase
-    .from("profiles")
-    .select("*")
-    .eq("email", email);
+  const { data } = await supabase.from("users").select("*").eq("email", email);
 
   if (data?.length) return { error: { message: "User already exists", data } };
   const response = await supabase.auth.signUp({
